@@ -408,3 +408,34 @@ p a:hover {
 #footer div ul li #pinterest:hover {
 	background-position: -44px -132px;
 }
+#backtop {
+    position: fixed;
+    left: auto;
+    right: 20px;
+    top: auto;
+    bottom: 20px;
+    outline: none;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(60, 60, 60, 0.84);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    z-index: 999999;
+    opacity: 1;
+    display: none;
+}
+
+#backtop:hover {
+    background-color: #00B4FF;
+}
+
+#backtop.mcOut {
+    opacity: 0;
+}
+
